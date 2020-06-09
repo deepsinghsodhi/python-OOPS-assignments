@@ -1,0 +1,4 @@
+Hotel Name: jkl
+Total Rooms: 5 
+AC Rooms: 2 
+Non AC Rooms: 3

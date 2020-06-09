@@ -1,0 +1,52 @@
+Assignment on OOP's Concepts:
+
+1) Write a program by creating an 'Employee' class having the following methods and print the final salary.
+1 - 'getInfo()' which takes the salary, number of hours of work per day of employee as parameter
+2 - 'AddSal()' which adds $10 to salary of the employee if it is less than $500.
+3 - 'AddWork()' which adds $5 to salary of employee if the number of hours of work per day is more than 6 hours.
+
+-----------------------------------------------------------------------------------------
+
+2) A small company dealing with transportation has just purchased a computer for its new automated reservations system. 
+    You have been asked to program the new system. You are to write a program called ReservationSystem  to assign seats on a vehicle. 
+    Your class also requires the following:·   
+  1.   a constructor , which initialize the LIST· Use a LIST  to represent the seating chart of the plane
+  2.   a method to assign the capacity of seating.·   
+  3.   a method for assigning seats. . 
+
+Initialize all the elements of the LIST to 0 to indicate that all the seats are empty. 
+As each seat is assigned, set the corresponding elements of the list to 1 to indicate that the seat is no longer available.
+Your program should, of course never assign a seat that has already been assigned. 
+you can write appropriate mutator and accessor methods as per requirement
+
+-----------------------------------------------------------------------------------------
+
+3)   The company also needs a program dealing especially with its only plane with each flight having a capacity of 10 seats. Name this class AirlineReservationSystem. 
+
+Your program should display the following menu of alternatives for reserving a seat on the flight:
+
+Please type 1 for “smoking”
+
+Please type 2 for “non-smoking”
+
+If the person types 1,then your program should assign a seat in the smoking section(seats 1-5) If the person types 2,then your program should assign a seat in the non-smoking section(seats 6-10). Your program should then print a boarding pass indicating the person’s seat number and whether it is in the smoking or non-smoking section of the plane.
+
+When the smoking section is full, your program should ask the person if it is acceptable to be placed in the non-smoking section (and vice versa). If yes, then make the appropriate seat assignment. If no, then print the message “Next flight leaves in 3 hours.”
+
+-----------------------------------------------------------------------------------------
+
+4) Create a class named 'Member' having the following members:
+Data members
+1 - Name
+2 - Age
+3 - Phone number
+4 - Address
+5 - Salary
+It also has a method named 'printSalary' which prints the salary of the members.
+Two classes 'Employee' and 'Manager' inherits the 'Member' class. The 'Employee' and 'Manager' classes have data members 'specialization' and 'department' respectively. Now, assign name, age, phone number, address and salary to an employee and a manager by making an object of both of these classes and print the same.
+
+---------------------------------------------------------------------------
+
+5)   Create a class named 'Rectangle' with two data members 'length' and 'breadth' and two methods to print the area and perimeter of the rectangle respectively. Its constructor having parameters for length and breadth is used to initialize length and breadth of the rectangle. Let class 'Square' inherit the 'Rectangle' class with its constructor having a parameter for its side (suppose s) calling the constructor of its parent class using 'super()'. Print the area and perimeter of a rectangle and a square.
+
+---------------------------------------------------------------------------
