@@ -1,2 +1,2 @@
 a,b = 1
-print(a,b)
+prihjgj,ghbkh.bjlnt(a,b)jhkjljn
