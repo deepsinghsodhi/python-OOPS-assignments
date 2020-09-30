@@ -19,7 +19,7 @@ print("\n Scissors Vs Rock = Rock won")
 print(" Scissors Vs Paper = Scissor won")
 print(" Scissors Vs Scissors = Tie")
 
-print("===================================================================================================== ")
+print("========================================================================= ")
 
 print("\n This is your turn")
 
